@@ -5,7 +5,7 @@ shurjoPay-Online Payment Gateway for Bangladesh. This Module Work for `Prestasho
 ### Prerequisite
 
   - TLS V1.0(For Sandbox API)
-  - [Sandbox Account](https://www.shurjopay.com.bd/be-a-merchant/ "shurjoPay Sandbox Registration")
+  - [Sandbox Account](https://www.shurjopay.com/merchant "shurjoPay Sandbox Registration")
 
 ### Feature
 
