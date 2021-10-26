@@ -101,8 +101,8 @@ class ShurjopayRequestModuleFrontController extends ModuleFrontController
         $history->id_order = (int)$objOrder->id;
         $history->id_order;
         
-        $sslc_mode = Configuration::get('MODE');
-        if( $sslc_mode == 1 )
+        $sp_mode = Configuration::get('MODE');
+        if( $sp_mode == 1 )
         {
             $redirect_url = 'https://shurjopay.com/sp-data.php';
             $api_type = "securepay";
