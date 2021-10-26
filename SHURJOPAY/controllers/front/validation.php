@@ -65,13 +65,13 @@ class ShurjopayValidationModuleFrontController extends ModuleFrontController
 		
 // 		echo $tran_id."----".$order_id."----".$val_id;exit;
 
-		$sslc_mode = Configuration::get('MODE');
+		$sp_mode = Configuration::get('MODE');
 		if (!Validate::isLoadedObject($customer))
 		{
 			Tools::redirect('index.php?controller=order&step=1');
 		}
 		
-	    if( $sslc_mode == 1 )
+	    if( $sp_mode == 1 )
         {
             $valid_url_own = ("");
         }
