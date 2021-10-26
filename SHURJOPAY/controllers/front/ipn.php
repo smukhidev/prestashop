@@ -59,7 +59,7 @@
                 $order_status = $objOrder->current_state;
                 $status = $_POST['status'];
                 
-                $sslc_mode = Configuration::get('MODE');
+                $sp_mode = Configuration::get('MODE');
                 
                 // echo "<pre>";
                 // print_r($_POST);
@@ -82,7 +82,7 @@
                 }
                 elseif($status == 'VALID' || $status == 'VALIDATED')
                 {
-                    if( $sslc_mode == 1 )
+                    if( $sp_mode == 1 )
                     {
                         $valid_url_own = ("http://shurjotest.com/validator/api/validationserverAPI.php?val_id=".$val_id."&Store_Id=".Configuration::get('SHURJOPAY_STORE_ID')."&Store_Passwd=".Configuration::get('SHURJOPAY_STORE_PASSWORD')."&v=1&format=json");
                     }
