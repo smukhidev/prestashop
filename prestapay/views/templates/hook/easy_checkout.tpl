@@ -24,7 +24,7 @@
 *}
 
 <p>{$details}</p>
-<form method="post" action="http://127.0.0.1/Myprestashop/module/SSLCOMMERZ/request">
+<form method="post" action="http://127.0.0.1/Myprestashop/module/SHURJOPAY/request">
 	<input type="text" name="order" id="order" value="{$tran_id}">
 	<input type="text" name="endpoint" id="endpoint" value="{$endpoint}">
 	<input type="text" name="token" id="endpoint" value="{$tran_id}">
