@@ -343,8 +343,8 @@ class SHURJOPAY extends PaymentModule
 
         $cart = new Cart(intval($cookie->id_cart));
         $tran_id = $cart->id;
-        $sslc_mode = Configuration::get('MODE');
-        if($sslc_mode == 1)
+        $sp_mode = Configuration::get('MODE');
+        if($sp_mode == 1)
         {
             $api_type = "securepay";
         }
