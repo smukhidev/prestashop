@@ -24,7 +24,7 @@
 *}
 
 <p>{$details}</p>
-<!--<div id="HtmlCOntent"><button disabled="" class="btn btn-primary center-block" id="sslczPayBtn" token="{$tran_id}" postdata="" order="{$tran_id}" endpoint="{$endpoint}">Order with SPAY
+<!--<div id="HtmlCOntent"><button disabled="" class="btn btn-primary center-block" id="spPayBtn" token="{$tran_id}" postdata="" order="{$tran_id}" endpoint="{$endpoint}">Order with SPAY
 </button></div>-->
 
 <form method="post" action="{$endpoint}">
